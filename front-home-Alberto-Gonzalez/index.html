@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">  
+<title>Test front home</title>
+</head>
+<body>
+<!-- FAVOR EJECUTAR CON LIVE SERVER DE VISUALSTUDIO PARA VER LAS IMAGENES -->
+<!-- PUSE EN PRACTICA LA ARQUITECTURA BEM PARA PODER REUTILIZAR LOS COMPONENTES -->
+<main>
+    <header>
+      <!-- MENU -->
+        <nav class="main-navbar">          
+                <div class="main-navbar-container-logo">
+                    <a href="#"><img class="main-navbar-logo" src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                <ul class="main-navbar-list" id="navi-list">
+                    <li class="main-navbar-list-item"><a href="#"><span>PC</span></a></li>
+                    <li class="main-navbar-list-item"><a href="#"><span>Console</span></a></li>
+                    <li class="main-navbar-list-item"><a href="#"><span>Services</span></a></li>
+                    <li class="main-navbar-list-item"><a href="#"><span>Support</span></a></li>
+                </ul>
+                <div class="menu" id="toggle-button-menu">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>       
+            <div class="main-navbar-list-right">
+                <div class="main-navbar-list-right-item"><a href="#" class="main-navbar-list-right-item-link"><i class=""><img src="assets/img/svg/icono-lupa.svg" alt="Lupa"></i></a></div>
+                <div class="main-navbar-list-right-item"><a href="#" class="main-navbar-list-right-item-link"><i class=""><img src="assets/img/svg/icono-user.svg" alt="perfil"></i></a></div>
+                <div class="main-navbar-list-right-item"><a href="#" class="main-navbar-list-right-item-link"><i class=""><img src="assets/img/svg/icono-carro.svg" alt="carrito"></i></a></div>
+            </div>
+        </nav>
+      <div class="promice-bar">        
+              <div class="promice-bar-list"><i class=""><img src="assets/img/svg/transporte.svg" alt="transporte"></i><span> Envío ¡GRATIS! por encima de $49.99</span></div>
+              <div class="promice-bar-list"><i class=""><img src="assets/img/svg/devolucion.svg" alt="devolucion"></i><span>Devoluciones Sin Costo</span></div>
+              <div class="promice-bar-list"><i class=""><img src="assets/img/svg/credit-card.svg" alt="compra-segura"></i><span>Compra segura</span></div>        
+      </div>
+    </header>  
+    <section>
+      <!-- BANNER PRINCIPAL -->
+        <div class="main-banner--ppal">         
+            <div class="main-banner__text">
+                <h1 class="main-banner__text-tittle">
+                    RAZER
+                </h1>
+                <h2 class="main-banner__text-subtittle">
+                    Project-Brooklyn-Silla-Gaming 
+                </h2>>
+                <p class="main-banner__text-drop">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et.
+                </p>
+            </div>          
+        </div>
+    </section>
+    <section>
+        <!-- TITULO CATEGORIAS -->
+        <div class="tittle">
+            <div class="tittle__text"><h2 class="tittle__text-tittle">CATEGORIAS</h2><div class="tittle__line"></div></div>       
+        </div>
+        <!-- CATEGORIAS -->
+        <div class="categorias">
+            <a href="#" class="categorias__item1">           
+                <div class="categorias__sticker">
+                    <h3 class="categorias__stiker-text">PC</h3>
+                </div>             
+            </a>
+            <a href="#" class="categorias__item2">               
+                <div class="categorias__sticker">
+                    <h3 class="categorias__stiker-text">Consola</h3>
+                </div>                
+            </a>
+            <a href="#" class="categorias__item3">                
+                <div class="categorias__sticker">
+                    <h3 class="categorias__stiker-text">Mobile</h3>
+                </div>                
+            </a>
+            <a href="#" class="categorias__item4">               
+                <div class="categorias__sticker">
+                    <h3 class="categorias__stiker-text">Services</h3>
+                </div>                
+            </a> 
+            <a href="#" class="categorias__item5">              
+                <div class="categorias__sticker">
+                    <h3 class="categorias__stiker-text">Lifestyle</h3>                   
+                </div>
+            </a>  
+        </div>
+    </section>
+    <section>
+        <!-- TITULO LO MAS VENDIDO -->
+        <div class="tittle">
+            <div class="tittle__text"><h2 class="tittle__text-tittle">LO MAS VENDIDO</h2><div class="tittle__line"></div></div>      
+        </div>
+        <!-- LO MAS VENDIDO -->
+        <div class="best-sell">
+            <div class="best-sell-item1">
+                <div class="card">
+                    <div class="card__top"> 
+                        <img src="assets/img/Razer-Book-Full-HD60Hz-ntel®Iris®XeGraphics-Mercury.png" class="card__top-img" alt="imagen-producto">         
+                    </div>
+                    <div class="card__botton">
+                        <h4 class="card__botton-tittle">Razer Book - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury</h4>
+                        <div class="card__botton-price">
+                            <p class="card__botton-price-old">$1.300.00</p>
+                            <p class="card__botton-price-new">$1.199.99</p>
+                        </div>                  
+                        <a href="#" type="button" class="button-card"><span class="button-card__text">ver producto</span></a>                                         
+                    </div>
+                </div>
+            </div>
+            <div class="best-sell-item2">
+                <div class="card">
+                    <div class="card__top"> 
+                        <img src="assets/img/Razer-Book-Full-HD60Hz-ntel®Iris®XeGraphics-Mercury.png" class="card__top-img" alt="imagen-producto">         
+                    </div>
+                    <div class="card__botton">
+                        <h4 class="card__botton-tittle">Razer Book - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury</h4>
+                        <div class="card__botton-price">
+                            <p class="card__botton-price-old">$1.300.00</p>
+                            <p class="card__botton-price-new">$1.199.99</p>
+                        </div>                  
+                        <a href="#" type="button" class="button-card"><span class="button-card__text">ver producto</span></a>                                         
+                    </div>
+                </div>
+            </div>
+            <div class="best-sell-item3">
+                <div class="card">
+                    <div class="card__top"> 
+                        <img src="assets/img/Razer-Book-Full-HD60Hz-ntel®Iris®XeGraphics-Mercury.png" class="card__top-img" alt="imagen-producto">         
+                    </div>
+                    <div class="card__botton">
+                        <h4 class="card__botton-tittle">Razer Book - Full HD 60Hz - Intel® Iris® Xe Graphics - Mercury</h4>
+                        <div class="card__botton-price">
+                            <p class="card__botton-price-old">$1.300.00</p>
+                            <p class="card__botton-price-new">$1.199.99</p>
+                        </div>                  
+                        <a href="#" type="button" class="button-card"><span class="button-card__text">ver producto</span></a>                                         
+                    </div>
+                </div>            
+        </div> 
+    </section>
+    <section>
+        <!-- TITULO EXCLUSIVOS RAZER -->
+        <div class="tittle">
+            <div class="tittle__text"><h2 class="tittle__text-tittle">EXCLUSIVOS RAZER</h2><div class="tittle__line"></div></div>      
+        </div>
+        <!-- EXCLUSIVOS RAZER -->
+        <div class="categorias--exclusivos">
+            <a href="#" class="categorias__item1--exclusivos">
+                <div class="main-banner__text--exclusivos-item1">
+                    <h2 class="main-banner__text-tittle--exclusivos-item1">
+                        NUEVO RAZER BLADE 15
+                    </h2>
+                    <h3 class="main-banner__text-subtittle--exclusivos-item1">
+                        AHORA EQUIPADO CON PROCESADOR DE 11TH GEN INTEL CORE H SERIES 
+                    </h3> 
+                    <span class="main-banner__text-link"><span class="main-banner__text-link-info">Ver más</span> ></span>
+                </div>   
+            </a>
+            <a href="#" class="categorias__item2--exclusivos">
+                <div class="main-banner__text--exclusivos-item2-item3">
+                    <h2 class="main-banner__text-tittle--exclusivos-item1">
+                        Raer barracuda x
+                    </h2>
+                    <h3 class="main-banner__text-subtittle--exclusivos-item1">
+                        TIEMPO LIMITADO        
+                    </h3> 
+                    <span class="main-banner__text-link"><span class="main-banner__text-link-info">Ver más</span> ></span>
+                </div>   
+            </a>
+            <a href="#" class="categorias__item3--exclusivos">
+                <div class="main-banner__text--exclusivos-item2-item3">
+                    <h2 class="main-banner__text-tittle--exclusivos-item1">
+                        Razer kishi for iPhone (xbox)
+                    </h2>
+                    <h3 class="main-banner__text-subtittle--exclusivos-item1">
+                        TIEMPO LIMITADO
+                    </h3>
+                    <span class="main-banner__text-link"><span class="main-banner__text-link-info">Ver más</span> ></span>
+                </div>   
+            </a> 
+        </div> 
+    </section>
+    <section>
+<!-- CONTACT -->
+<div class="contact">
+    <div class="contact__description">
+        <div class="contact__data">
+            <div class="contact__data-info">
+                <h4 class="contact__tittle">Boletín de Noticias y Promociones.</h4>
+                <p class="contact__drop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna sem, tempus in ultrices eu, blandit vitae justo. Etiam vitae est semper neque pretium fringilla blandit non nulla.</p>
+            </div>              
+        </div>             
+    </div>  
+    <div class="contact__form">
+        <form>
+            <input class="contact__input-text" type="text" id="" name="firstname" placeholder="NOMBRE">           
+            <input class="contact__input-email" type="email" id="" name="lastname" placeholder="CORREO"> 
+            <input class="contact__input-button" type="submit" value="ENVIAR">
+        </form>  
+    </div> 
+</div>       
+    </section>
+<footer>
+    <div class="footer-razer">
+        <div class="footer-box">
+            <div class="footer-box-1">   
+                <img class="main-nav__logo-img--footer" src="assets/img/logo.png" alt="logo">             
+            </div>
+            <div class="footer-box-2">
+                <h4 class="footer-box__tittle">
+                    Acerca de Nosotros 
+                </h4>
+                <div class="footer-box__colum">
+                    <div class="footer-box__colum-1">
+                        <a href="#" class="footer-box-links">Nuestra empresa</a> 
+                        <a href="#" class="footer-box-links">Política de privacidad</a> 
+                    </div>  
+                    <div class="footer-box__colum-2">
+                        <a href="#" class="footer-box-links">Cambios y devoluciones</a> 
+                        <a href="#" class="footer-box-links">Términos y condiciones</a> 
+                    </div> 
+                </div>                 
+            </div>
+            <div class="footer-box-3">
+                <h4 class="footer-box__tittle">
+                    Brand
+                </h4>
+                <div class="footer-box__colum">
+                    <div class="footer-box__colum-1">
+                        <p href="#" class="footer-box-drop">Victorinox Wenger</p>                        
+                    </div>  
+                    <div class="footer-box__colum-2">
+                        <p href="#" class="footer-box-drop">Niteize Maglite</p>                         
+                    </div> 
+                    <div class="footer-box__colum-3">
+                        <p href="#" class="footer-box-drop">Niteize Maglite</p>                         
+                    </div> 
+                </div> 
+            </div>
+            <div class="footer-box-4">
+                <h4 class="footer-box__tittle">
+                    Contacto
+                </h4>
+                <div class="footer-box__colum">
+                    <div class="footer-box__colum-1">
+                        <p href="#" class="footer-box-drop">contacto@midominio.cl                        </p>
+                        <p href="#" class="footer-box-drop">+56 2 222 56 89 09</p>                         
+                    </div>
+                </div> 
+            </div>
+            <div class="footer-box-5">
+                <h4 class="footer-box__tittle">
+                    Nuestras redes
+                </h4>
+                <div class="footer-box__colum">
+                    <div class="footer-box__colum-1">
+                        <a href="#" class="footer-box-links"><i class=""><img src="assets/img/svg/facebook.svg" alt="Lupa"></i></a>
+                    </div>  
+                    <div class="footer-box__colum-2">
+                        <a href="#" class="footer-box-links"><i class=""><img src="assets/img/svg/instagram.svg" alt="Lupa"></i></a> 
+                    </div> 
+                    <div class="footer-box__colum-2">
+                        <a href="#" class="footer-box-links"><i class=""><img src="assets/img/svg/twitter.svg" alt="Lupa"></i></a> 
+                    </div> 
+                </div>  
+            </div>
+        </div> 
+    </div> 
+</footer>  
+</main>   
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

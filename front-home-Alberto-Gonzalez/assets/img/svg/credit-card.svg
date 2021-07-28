@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="24.499" viewBox="0 0 28 24.499">
+  <g id="credit-card" transform="translate(0 -32.008)">
+    <g id="Grupo_50" data-name="Grupo 50" transform="translate(0 37.257)">
+      <g id="Grupo_49" data-name="Grupo 49">
+        <path id="Trazado_331" data-name="Trazado 331" d="M12.25,129.742v-1.75H1.75A1.753,1.753,0,0,0,0,129.742v3.5H12.619A15.669,15.669,0,0,1,12.25,129.742Z" transform="translate(0 -127.992)" fill="#888"/>
+      </g>
+    </g>
+    <g id="Grupo_52" data-name="Grupo 52" transform="translate(0 46.007)">
+      <g id="Grupo_51" data-name="Grupo 51">
+        <path id="Trazado_332" data-name="Trazado 332" d="M27.928,287.992a15.739,15.739,0,0,1-5.621,4.9,2.628,2.628,0,0,1-2.609,0,15.816,15.816,0,0,1-5.623-4.905H0v8.75a1.752,1.752,0,0,0,1.75,1.75h24.5a1.751,1.751,0,0,0,1.75-1.75v-8.75Zm-20.053,5.25h-3.5a.875.875,0,0,1,0-1.75h3.5a.875.875,0,0,1,0,1.75Z" transform="translate(0 -287.992)" fill="#888"/>
+      </g>
+    </g>
+    <g id="Grupo_54" data-name="Grupo 54" transform="translate(14 32.008)">
+      <g id="Grupo_53" data-name="Grupo 53">
+        <path id="Trazado_333" data-name="Trazado 333" d="M269.47,34.7l-6.125-2.625a.878.878,0,0,0-.691,0L256.529,34.7a.872.872,0,0,0-.529.8v3.5c0,4.814,1.78,7.628,6.564,10.384a.88.88,0,0,0,.872,0C268.22,46.642,270,43.828,270,39.007v-3.5A.871.871,0,0,0,269.47,34.7Zm-3.16,3.976-3.5,4.375a.886.886,0,0,1-.685.327h-.037a.879.879,0,0,1-.691-.389l-1.75-2.625A.875.875,0,1,1,261.1,39.4l1.087,1.629,2.75-3.44a.876.876,0,0,1,1.369,1.092Z" transform="translate(-256 -32.008)" fill="#888"/>
+      </g>
+    </g>
+  </g>
+</svg>
